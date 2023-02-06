@@ -30,3 +30,49 @@ nav a{
     text-decoration: none;
 
 }
+
+.produtos{
+    width: 940px;
+    margin: 0px auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.descricao{
+    font-size: 18px;
+}
+
+/*main ul {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+main ul li{
+    border: 3px solid black;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+main ul p{
+    text-align: center;
+}*/
+
+
