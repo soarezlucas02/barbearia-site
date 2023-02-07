@@ -137,3 +137,8 @@ form label, form legend{
     background-color: darkorange;
     transform: scale(1.2);
 }
+
+table td{
+    text-align: center;
+    border: 1px solid black;
+}
