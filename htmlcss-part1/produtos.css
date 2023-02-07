@@ -81,21 +81,14 @@ nav a:hover{
     font-size: 18px;
 }
 
-/*main ul {
-    display: flex;
-    justify-content: center;
-    
-    
-}
-
-main ul li{
-    border: 3px solid black;
-    margin: 10px;
-    border-radius: 5px;
-}
-
-main ul p{
+footer{
     text-align: center;
-}*/
+    background: url(./assets/bg.jpg);
+    padding: 20px 0;
+}
 
-
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px; 
+}
