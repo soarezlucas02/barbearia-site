@@ -67,6 +67,7 @@ nav a:hover{
 
 .produtos li:hover h2{
     font-size: 34px;
+    transition: 400ms;
 }
 
 .produtos h2{
@@ -96,8 +97,9 @@ footer{
     margin-top: 20px; 
 }
 
-main{
-    
+.contato-main{
+    width: 940px;
+    margin: 0 auto;  
 }
 
 form{
@@ -254,4 +256,38 @@ td, th{
 .video{
     width: 560px;
     margin: 2em auto;
+}
+
+@media screen and (max-width:480px) {
+    .caixa, .principal, .mapa-conteudo, .conteudo-beneficios, .video, .produtos li, .produtos, .contato-main{
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .lista-beneficios, .imagem-beneficios{
+        width: 100%;
+
+    }
+
+    .produtos li{
+        display: block;
+        margin: 10px 0;
+    }
+
+    .contato-main{
+        text-align: center;
+    }
+
+    form input, textarea, table{
+        margin: 0 auto;
+    }
+
+    table{
+        margin-bottom: 15px;
+    }
+
 }
